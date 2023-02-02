@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc sample_project top level supervisor.
+%% @doc soos_sample_project top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(sample_project_sup).
+-module(soos_sample_project_sup).
 
 -behaviour(supervisor).
 

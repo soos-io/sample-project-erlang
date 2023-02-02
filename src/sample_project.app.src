@@ -1,6 +1,6 @@
 {application, sample_project,
- [{description, "An OTP application"},
-  {vsn, "0.1.0"},
+ [{description, "Used for testing purposes, this package is an example of a vulnerable package on a public registry."},
+  {vsn, "1.0.0"},
   {registered, []},
   {mod, {sample_project_app, []}},
   {applications,
@@ -9,7 +9,7 @@
    ]},
   {env,[]},
   {modules, []},
-
+  {links, [{"GitHub", "https://github.com/soos-io/sample-project-erlang"}, {"Website", "https://soos.io"}]},
   {licenses, ["MIT"]},
   {links, []}
  ]}.

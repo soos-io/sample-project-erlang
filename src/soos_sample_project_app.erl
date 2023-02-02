@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc sample_project public API
+%% @doc soos_sample_project public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(sample_project_app).
+-module(soos_sample_project_app).
 
 -behaviour(application).
 

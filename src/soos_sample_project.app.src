@@ -1,0 +1,16 @@
+{application, soos_sample_project,
+ [{description, "SOOS (https://soos.io) is an independent software security company, located in Winooski, VT USA, building security software for your team. Used for testing purposes, this package is an example of a vulnerable package on a public registry."},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {mod, {soos_sample_project_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {links, [{"GitHub", "https://github.com/soos-io/sample-project-erlang"}, {"Website", "https://soos.io"}]},
+  {licenses, ["MIT"]},
+  {links, []},
+  {doc, "doc"}
+ ]}.
